@@ -1,0 +1,35 @@
+# This is the default format.
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+name: Nelson Wang
+title: Nelson Wang | Software Engineer
+description: DevOps-focused software engineer passionate about Kubernetes and containerzation
+url: https://nwang92.github.io
+baseurl: ""
+repository: "nwang92/nwang92.github.io"
+
+author:
+  name: Nelson Wang
+  email: nwang92@gmail.com
+  github: nwang92
+  linkedin: https://www.linkedin.com/in/nelson-wang-30944956/
+
+social:
+  - title: email
+    url: mailto:nwang92@gmail.com
+  - title: github
+    url: https://github.com/nwang92
+  - title: linkedin
+    url: https://www.linkedin.com/in/nelson-wang-30944956/
+
+permalink: /:categories/:year/:month/:day/:title
+highlighter: rouge
+markdown: kramdown
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
